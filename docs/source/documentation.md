@@ -105,7 +105,7 @@ struct  _Onnx__NodeProto
 ```
 
 #### Onnx__TensorProto
-One of the most important types that you will see, is the `Onnx__TensorProto`. It just defines a vector, an array, a matrix, or whatever you want to call it. It is quite convinient to use, because it is quite generic. You can store different types of values, with different sizes. As an example, lets say that we want to store a 3 dimension vector. In that case `n_dims=3` and `dims[0]`, `dims[1]`, `dims[2]` will store some values. Lets store some `float` values, so `data_type=ONNX__TENSOR_PROTO__DATA_TYPE__FLOAT `. In this case `n_float_data=dims[0]*dims[1]*dims[2]` and `float_data` will contain all the values in a single dimension array. The tensor has also a `name`.
+One of the most important types that you will see, is the `Onnx__TensorProto`. It just defines a vector, an array, a matrix, or whatever you want to call it. It is quite convenient to use, because it is quite generic. You can store different types of values, with different sizes. As an example, lets say that we want to store a 3 dimension vector. In that case `n_dims=3` and `dims[0]`, `dims[1]`, `dims[2]` will store some values. Lets store some `float` values, so `data_type=ONNX__TENSOR_PROTO__DATA_TYPE__FLOAT `. In this case `n_float_data=dims[0]*dims[1]*dims[2]` and `float_data` will contain all the values in a single dimension array. The tensor has also a `name`.
 
 ```c
 struct  _Onnx__TensorProto
